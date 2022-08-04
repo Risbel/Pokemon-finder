@@ -24,7 +24,7 @@ body {
     color: black;
 }
 
-.filterPokemonContent {
+.NextAndPreviousContent {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -32,14 +32,7 @@ body {
     height: 30px;
 }
 
-.filterPokemon {
-    border: none;
-    outline: none;
-    border-radius:  15px; 
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+
 .generatePokes-container {
     padding: 10px 16px;
     border: solid 1px black;

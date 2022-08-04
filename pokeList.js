@@ -52,34 +52,6 @@ const createTypes = (types, ul) => types.forEach((type) => {
     })
 */
 
-const next = () => {
-  generatePokes();
-};
-
-/*  
-const input = document.querySelector(`#filterPokemon`)
-const pokeresList = document.querySelector(`#pokeres`)
-
-
-window.addEventListener(`DOMContentLoaded`, () => {
-
-    //Function for incert the name
-    loadPokeres()
-    .then(pokes =>{ 
-        function getNames() {
-            for (let i = 0; i < 50; i++){
-                pokeresList.innerHTML += (`<li>${pokes.results[i].name}</li>`)
-            }
-        }
-        getNames()
-    })
-    
-})
-
-input.addEventListener(`keyup`, e => {
-    console.log(input.value)
-})
-*/
 
 /******************************************** Samuel *********************************************/
 const populatePokemonsData = (data) => {
@@ -87,7 +59,8 @@ const populatePokemonsData = (data) => {
   // de cada promesa
   Promise.all(
     data.results.map((pokemon) =>
-      srcPokemonByName(pokemon.name).then((pokemonData) => pokemonData)
+      srcPokemonByName(pokemon.name).then(
+        (pokemonData) => pokemonData)
     )
   ).then((allData) => {
     for (const pokemonData of allData) {
@@ -122,9 +95,10 @@ const updatePaginationLinks = (offset, limit, prev, next) => {
 window.onload = () => {
   const params = new URLSearchParams(window.location.search);
   const offset = Number(params.get("offset")) || 0;
-  const limit = Number(params.get("limit")) || 10;
+  const limit = Number(params.get("limit")) || 12;
 
   getPokemons(offset, limit).then((data) => {
+    console.log(data)
     populatePokemonsData(data);
     updatePaginationLinks(offset, limit, data.previous, data.next);
   });
