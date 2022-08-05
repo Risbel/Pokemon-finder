@@ -25,44 +25,45 @@ body {
 }
 
 .searchInput-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     height: 25px;
 }
 
 .search-input {
-    width: 50%;
+    width: 100%;
     font-size: 1rem;
     outline: none;
     border: none;
     border-radius: 15px 0 0 15px;
-    padding-left: 10px;
     margin-bottom: 0px;
     background-color: aliceblue;   
 }
 
 .pokemons-container {
+    width: 100%;
     display: flex;
     justify-content: center;
-    position: relative;
-    right: 15px;
 }
 .pokemons {
-    position: absolute;
-    margin: 0px;
-    width: 50%;
+    width: 100%;
     font-size: 1rem;
     outline: none;
     border: none;
     border-radius: 15px;
-    padding-left: 10px;
     margin-bottom: 0px;
     background-color: rgba(240, 248, 255, 0.699); 
 }
 
+.dropdown-container {
+    width: 50%;
+    margin: 0px auto;
+    padding: 0px;
+}
+
 ul {
-    position: relative;
-    right: 40px;
+    margin: 0px;
 }
 
 
@@ -80,6 +81,12 @@ ul {
     margin-right: 20px;
     display: flex;
     justify-content: center;
+    
+    position: absolute;
+    top: 240px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
 }
 
 .go {
