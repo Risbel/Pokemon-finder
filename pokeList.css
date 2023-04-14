@@ -1,114 +1,115 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
 body {
-    margin: 0px;
-    padding: 0px;
-    background: linear-gradient(rgb(235, 229, 175), rgb(255, 242, 58), rgb(235, 229, 175) );
-    
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(rgb(235, 229, 175), rgb(255, 242, 58), rgb(235, 229, 175));
 }
 
 .containerImage {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .circle-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .bx {
-    font-size: 30px;
-    color: black;
+  font-size: 30px;
+  color: black;
 }
 
 .NextAndPreviousContent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    margin: 30px;
-    height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px;
+  height: 30px;
 }
 
-
 .generatePokes-container {
-    padding: 10px 16px;
-    border: solid 1px black;
-    text-decoration: none;
-    color: black;
-    border-radius: 20px;
-    background: red;
-    font-size: 10px;
-    font-weight: bolder;
+  padding: 10px 16px;
+  border: solid 1px black;
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+  background: red;
+  font-size: 10px;
+  font-weight: bolder;
 }
 
 .cardContainer {
-    background-color: rgb(255, 244, 208);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: solid 5px;
-    border-radius: 10px;
-    border-color: rgba(32, 61, 226, 0.904);
+  background-color: rgb(255, 244, 208);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.items{
-    background: linear-gradient(rgb(161, 108, 46),rgb(252, 190, 119),rgb(161, 108, 46));
-    border: solid 2px;
-    border-color: black;
-    margin: 5px;
-    width: 85px;
-    height: 125px;
+.items {
+  background: linear-gradient(rgb(161, 108, 46), rgb(252, 190, 119), rgb(161, 108, 46));
+  border: solid 2px;
+  border-color: black;
+  margin: 5px;
+  width: 85px;
+  height: 125px;
 }
 
 .names {
-    position: relative;
-    text-align: center;
-    color: black;
-    font-size: 0.8rem;
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 0.8rem;
 }
 
 .backImg {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    background-color: rgba(53, 53, 45, 0.726);
-    border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  background-color: rgba(53, 53, 45, 0.726);
+  border-radius: 50%;
 }
 
 .newCards {
-    background: linear-gradient(rgb(161, 108, 46),rgb(252, 190, 119),rgb(161, 108, 46));
-    border: solid 2px;
-    border-color: black;
-    margin: 5px;
-    width: 85px;
-    height: 125px;
-    text-align: center;
+  background: linear-gradient(rgb(161, 108, 46), rgb(252, 190, 119), rgb(161, 108, 46));
+  border: solid 2px;
+  border-color: black;
+  margin: 5px;
+  width: 85px;
+  height: 125px;
+  text-align: center;
 }
 
-.pokeImg{
-    height: 70px;
-    width: 100%;
+.pokeImg {
+  height: 70px;
+  width: 100%;
 }
 
 .pokeName {
-    font-size: 0.7rem;
-    position: relative;
-    bottom: 10px;
-    color: black;
+  font-size: 0.7rem;
+  position: relative;
+  bottom: 10px;
+  color: black;
 }
 
 p {
-   display: flex;
-   justify-content: flex-end;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   font-size: 10px;
-   color: black;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 10px;
+  color: black;
 }
 
 .disabled {
-    background-color: gray;
+  background-color: gray;
 }

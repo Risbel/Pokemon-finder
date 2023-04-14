@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CardInfo</title>
-
-    <link rel="stylesheet" href="details.css">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="details.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+  <body>
     <button>
-        <a  href="./pokeList.html"><i class='bx bx-left-arrow-alt'></i></a>
+      <a href="./pokeList.html"><i class="bx bx-left-arrow-alt"></i></a>
     </button>
-    
+
     <div class="fatherCard">
-        <div class="items">
-            <div class="backImg">
-                <img id="imgCards" class="imgCards" src=""> 
-            </div>
-            <p id="pokeName" class="names"> </p>
+      <div class="items">
+        <div class="backImg">
+          <img id="imgCards" class="imgCards" src="" />
         </div>
-    </div>   
+        <p id="pokeName" class="names"></p>
+      </div>
+    </div>
 
+    <p id="details-header" class="details-header" style="height: 20px">Encabezado</p>
 
-<p id="details-header" class="details-header" style="height: 20px" >Encabezado</p> 
+    <div class="details_container">
+      <p id="hp" class="hp">HP</p>
+      <p id="attack" class="attack">Attack</p>
+      <p id="defense" class="defense">Defense</p>
+      <p id="speed" class="speed">Speed</p>
+      <p id="special_defense" class="special_defense">Special defence</p>
+      <p id="special_attack" class="special_attack">Special attack</p>
+    </div>
 
-<div class="details_container">
-    <p id="hp" class="hp">HP</p>
-    <p id="attack" class="attack"> Attack</p>
-    <p id="defense" class="defense" >Defense</p>
-    <p id="speed" class="speed" >Speed</p>
-    <p id="special_defense" class="special_defense" >Special defence</p>
-    <p id="special_attack" class="special_attack" >Special attack</p>
-</div>
-
-
-<script src="./accessTheApi.js" ></script>
-<script src="./common.js"> </script>
-<script src="./details.js" ></script>
-</body>
+    <script src="./accessTheApi.js"></script>
+    <script src="./common.js"></script>
+    <script src="./details.js"></script>
+  </body>
 </html>

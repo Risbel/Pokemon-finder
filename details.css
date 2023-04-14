@@ -1,73 +1,74 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
 body {
-    margin: 0px;
-    padding: 0px;
-    background: linear-gradient(rgb(235, 229, 175), rgb(255, 242, 58), rgb(235, 229, 175) );
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(rgb(235, 229, 175), rgb(255, 242, 58), rgb(235, 229, 175));
 }
 
 button {
-    position: relative;
-    background: transparent;
-    border: 0px;
-    border-radius: 30%;
-    top: 20px;
-    left: 10px;
+  position: relative;
+  background: transparent;
+  border: 0px;
+  border-radius: 30%;
+  top: 20px;
+  left: 10px;
 }
 
 .bx {
-    color: black;
-    font-size: 50px;
+  color: black;
+  font-size: 50px;
 }
-
-
 
 .fatherCard {
-    background-color: rgb(255, 244, 208);
-    display: flex;
-    justify-content: space-around;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: solid 6px; 
-    border-radius: 50%;
-    border-color: black ;
-    
+  background-color: rgb(255, 244, 208);
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid 6px;
+  border-radius: 50%;
+  border-color: black;
 }
 
-.items{
-    background: linear-gradient(rgb(161, 108, 46),rgb(252, 190, 119),rgb(161, 108, 46));
-    border: solid;
-    border-color: black;
-    margin: 20px;
-    width: 150px;
-    height: 200px;
+.items {
+  background: linear-gradient(rgb(161, 108, 46), rgb(252, 190, 119), rgb(161, 108, 46));
+  border: solid;
+  border-color: black;
+  margin: 20px;
+  width: 150px;
+  height: 200px;
 }
 
 .imgCards {
-    height: 130px;
+  height: 130px;
 }
 
 .names {
-    text-align: center;
+  text-align: center;
 }
 
 .backImg {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    margin-top: 20px;
-    background-color: rgba(71, 71, 60, 0.726);
-    border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 20px;
+  background-color: rgba(71, 71, 60, 0.726);
+  border-radius: 50%;
 }
 
 .details-header {
-    text-align: center;
+  text-align: center;
 }
 
 .details_container {
-    display: block;
-    border: solid 5px;
-    border-radius: 25px;
-    padding-left: 20px;
-    font-size: 20px;
-    background-color: rgb(255, 244, 208);
-    margin: 5px;
+  display: block;
+  border: solid 5px;
+  border-radius: 25px;
+  padding-left: 20px;
+  font-size: 20px;
+  background-color: rgb(255, 244, 208);
+  margin: 5px;
 }

@@ -1,96 +1,102 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
 body {
-    margin: 0px;
-    padding: 0px;
-    background: linear-gradient(rgb(235, 229, 175), rgb(255, 242, 58), rgb(235, 229, 175) );
-    
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(rgb(235, 229, 175), rgb(255, 242, 58), rgb(235, 229, 175));
 }
 
 .containerImage {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .circle-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .bx {
-    font-size: 30px;
-    color: black;
+  font-size: 30px;
+  color: black;
 }
 
 .searchInput-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 25px;
+  display: flex;
+  justify-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 42px;
 }
 
 .search-input {
-    width: 100%;
-    font-size: 1rem;
-    outline: none;
-    border: none;
-    border-radius: 15px 0 0 15px;
-    margin-bottom: 0px;
-    background-color: aliceblue;   
+  width: 100%;
+  height: 40px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 15px 0 0 15px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .pokemons-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  overflow: auto;
+  max-height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(240, 248, 255, 0.699);
+  border-radius: 15px;
 }
 .pokemons {
-    width: 100%;
-    font-size: 1rem;
-    outline: none;
-    border: none;
-    border-radius: 15px;
-    margin-bottom: 0px;
-    background-color: rgba(240, 248, 255, 0.699); 
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  margin-bottom: 0px;
 }
 
 .dropdown-container {
-    width: 50%;
-    margin: 0px auto;
-    padding: 0px;
+  width: 50%;
+  margin: 0px auto;
+  padding: 0px;
 }
 
 ul {
-    margin: 0px;
+  margin: 0px;
 }
-
 
 .lens-button {
-    right: 18px;
-    border: none;
-    border-radius: 0 15px 15px 0; 
-    background-color: ghostwhite;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  background-color: white;
 }
 
-
 .picachu {
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: flex;
-    justify-content: center;
-    
-    position: absolute;
-    top: 240px;
-    left: 0px;
-    right: 0px;
-    z-index: -1;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+
+  position: absolute;
+  top: 240px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
 }
 
 .go {
-    z-index: -1;
-    position: relative;
-    bottom: 40px;
+  z-index: -1;
+  position: relative;
+  bottom: 40px;
 }
